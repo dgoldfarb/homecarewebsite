@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Explore the comprehensive home care services offered by Lana Home Care in Huntingdon Valley, PA, including personal care, companionship, and respite care.">
+  <title>Our Services | Lana Home Care</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    .page-header {
+      background-color: var(--color-accent);
+      padding: 4rem 0;
+      text-align: center;
+    }
+
+    .services-detail-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .service-detail-card {
+      background: white;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--color-border);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-detail-img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .service-detail-content {
+      padding: 2rem;
+      flex-grow: 1;
+    }
+
+    .service-detail-content h3 {
+      color: var(--color-primary);
+      margin-bottom: 1rem;
+    }
+
+    .service-detail-content ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-top: 1rem;
+      color: var(--color-text-light);
+    }
+
+    .service-detail-content li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="Lana Home Care" class="logo-img">
+      </a>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="services.html" class="nav-link active">Services</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>Comprehensive care solutions tailored to your needs.</p>
+    </div>
+  </section>
+
+  <!-- Services List -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center">
+        <h2>What We Offer</h2>
+        <p>We provide a wide range of services to support seniors and individuals with disabilities in the comfort of
+          their own homes.</p>
+      </div>
+
+      <div class="services-detail-grid">
+        <!-- Personal Care -->
+        <div class="service-detail-card animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt="Personal Care" class="service-detail-img">
+          <div class="service-detail-content">
+            <h3>Personal Care</h3>
+            <p>Assistance with daily living activities to ensure comfort, hygiene, and dignity.</p>
+            <ul>
+              <li>Bathing and Grooming</li>
+              <li>Dressing Assistance</li>
+              <li>Toileting and Incontinence Care</li>
+              <li>Mobility and Transfer Assistance</li>
+              <li>Medication Reminders</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Companion Care -->
+        <div class="service-detail-card animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1549488346-60193108c950?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt="Companion Care" class="service-detail-img">
+          <div class="service-detail-content">
+            <h3>Companion Care</h3>
+            <p>Providing social interaction and emotional support to combat loneliness and isolation.</p>
+            <ul>
+              <li>Friendly Conversation</li>
+              <li>Company for Meals</li>
+              <li>Reading and Games</li>
+              <li>Escort to Appointments</li>
+              <li>Shopping Errands</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Home Helper -->
+        <div class="service-detail-card animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt="Home Helper" class="service-detail-img">
+          <div class="service-detail-content">
+            <h3>Home Helper Services</h3>
+            <p>Keeping the home environment safe, clean, and organized.</p>
+            <ul>
+              <li>Light Housekeeping</li>
+              <li>Laundry and Linens</li>
+              <li>Meal Planning and Preparation</li>
+              <li>Grocery Shopping</li>
+              <li>Organization</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Respite Care -->
+        <div class="service-detail-card animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1516733968668-dbdce39c4651?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt="Respite Care" class="service-detail-img">
+          <div class="service-detail-content">
+            <h3>Respite Care</h3>
+            <p>Temporary relief for family caregivers to rest and recharge.</p>
+            <ul>
+              <li>Short-term Support</li>
+              <li>Weekend Care</li>
+              <li>Vacation Coverage</li>
+              <li>Peace of Mind for Families</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <div class="logo" style="margin-bottom: 1rem;">
+            <img src="assets/images/logo.png" alt="Lana Home Care" class="logo-img"
+              style="background: white; padding: 5px; border-radius: 5px;">
+          </div>
+          <p style="opacity: 0.8; line-height: 1.6;">
+            Compassionate home care services you can trust. Serving Huntingdon Valley and surrounding areas.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="footer-links">
+            <li><i class="fas fa-map-marker-alt text-secondary" style="margin-right: 10px;"></i> 51 Buck Rd. Suite
+              D,<br>Huntingdon Valley, PA 19006</li>
+            <li><i class="fas fa-phone text-secondary" style="margin-right: 10px;"></i> 215-272-1648</li>
+            <li><i class="fas fa-envelope text-secondary" style="margin-right: 10px;"></i> LanaHomeCare@yahoo.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Lana Home Care. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
